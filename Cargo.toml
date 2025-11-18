@@ -1,0 +1,17 @@
+[package]
+name = "or-panic"
+version = "1.0.0"
+edition = "2021"
+authors = ["Antonio Hickey <contact@antoniohickey.com>"]
+categories = ["rust-patterns", "no-std", "development-tools"]
+description = "unwrap or panic"
+documentation = "https://docs.rs/or-panic"
+keywords = ["panic", "unwrap", "result", "option", "extension-trait"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/antonio-hickey/or-panic"
+rust-version = "1.68"
+
+[features]
+default = ["std"]
+std = []
+no_std = []
