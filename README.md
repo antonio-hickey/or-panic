@@ -29,7 +29,7 @@ fn main() {
 - Context on the exact line of panic
 - Optional `no_std` support
     - enabled via: 
-    - ```
+      ```
       default-features = false
       features = ["no_std"]   
       ```
