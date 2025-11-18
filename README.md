@@ -1,6 +1,13 @@
 or-panic 🫨🤯
 ===
 
+<p align="center">
+    <img alt="dependency count" src="https://img.shields.io/deps-rs/repo/github/antonio-hickey/or-panic?style=for-the-badge" height="20">
+    <img alt="size" src="https://img.shields.io/crates/size/or-panic?style=for-the-badge" height="20">
+    <img alt="license" src="https://img.shields.io/crates/l/or-panic?style=for-the-badge" height="20">
+    <img alt="build status" src="https://img.shields.io/github/actions/workflow/status/antonio-hickey/or-panic/ci.yml?style=for-the-badge" height="20">
+</p>
+
 A tiny extension trait that adds idiomatic `.or_panic(..)` methods to `Option` and `Result`.
 
 ```toml
