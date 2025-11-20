@@ -1,4 +1,4 @@
-use or_panic::ResultOrPanic;
+use or_panic::prelude::*;
 
 fn main() {
     let duration = std::time::SystemTime::now()

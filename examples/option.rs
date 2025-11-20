@@ -1,13 +1,9 @@
-use or_panic::OptionOrPanic;
+use or_panic::prelude::*;
 
 fn main() {
     println!("Example: Getting the highest priority task");
 
-    let tasks = [
-        ("clean", 1),
-        ("deploy", 10),
-        ("backup", 3),
-    ];
+    let tasks = [("clean", 1), ("deploy", 10), ("backup", 3)];
 
     let next_task = tasks
         .iter()

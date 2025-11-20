@@ -2,6 +2,21 @@
 
 use core::fmt::{Debug, Display};
 
+/// The prelude: a collection of commonly-used types, traits, and functions.
+///
+/// Importing the prelude brings the most ergonomically important items
+/// into scope:
+///
+/// ```
+/// use or_panic::prelude::*;
+/// ```
+///
+/// This is purely for convenience—everything in the prelude is also
+/// available through their regular module paths.
+pub mod prelude {
+    pub use crate::{OptionOrPanic, ResultOrPanic};
+}
+
 pub trait OptionOrPanic<T> {
     /// Unwrap the [`Option`] or panic with a message.
     ///

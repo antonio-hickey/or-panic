@@ -1,6 +1,6 @@
 [package]
 name = "or-panic"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 authors = ["Antonio Hickey <contact@antoniohickey.com>"]
 categories = ["rust-patterns", "no-std", "development-tools"]
