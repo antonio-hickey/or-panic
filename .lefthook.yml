@@ -1,0 +1,17 @@
+pre-commit:
+  commands:
+    check-cargo-fmt:
+      glob: "*.rs"
+      run: cargo fmt
+    check-cargo-clippy:
+      glob: "*.rs"
+      run: cargo clippy -- -D warnings
+    check-cargo:
+      glob: "*.rs"
+      run: cargo check
+    check-cargo-test:
+      glob: "*.rs"
+      run: cargo test --all-targets
+    check-cargo-build:
+      glob: "*.rs"
+      run: cargo build
